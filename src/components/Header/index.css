@@ -1,0 +1,130 @@
+.india {
+  color: #3b82f6;
+}
+
+@media (max-width: 767px) {
+  .nav-header {
+    height: 56px;
+    background: #1e1e30;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+  }
+  .covid-19-india {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f8fafc;
+    text-decoration: none;
+  }
+  .nav-menu-lg {
+    display: none;
+  }
+  .nav-link-active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #f8fafc;
+  }
+  .nav-link-inactive {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-decoration: none;
+    color: #94a3b8;
+  }
+  .nav-menu-sm {
+    background-color: #161625;
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .sm-ul-container {
+    display: flex;
+    list-style: none;
+  }
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .nav-header {
+    height: 80px;
+    background: #1e1e30;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+  }
+  .covid-19-india {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #f8fafc;
+    text-decoration: none;
+  }
+  .nav-menu-lg {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+  }
+  .nav-link-active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #f8fafc;
+  }
+  .nav-link-inactive {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-decoration: none;
+    color: #94a3b8;
+  }
+  .add-que {
+    display: none;
+  }
+  .nav-menu-sm {
+    display: none;
+  }
+}
+.button-element {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.close-image {
+  margin-right: 20px;
+}
+
+.add-que-inactive {
+  display: none;
+}

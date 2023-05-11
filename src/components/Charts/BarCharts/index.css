@@ -1,0 +1,13 @@
+.bar-chart-container {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  width: 80vw;
+}
+.bar-chard-in-container {
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: auto;
+  height: 360px;
+  align-items: center;
+}

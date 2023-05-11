@@ -1,0 +1,359 @@
+.home-container {
+  background-color: #161625;
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 64px;
+}
+
+::placeholder {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.search-element {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  flex-grow: 1;
+  height: 72px;
+  border-radius: 8px;
+}
+
+.search-icon {
+  color: #94a3b8;
+  margin: 20px;
+}
+
+.search-container {
+  background-color: #2f2f43;
+  border-radius: 8px;
+  height: 72px;
+  width: 80vw;
+  max-width: 800px;
+  outline: none;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+  .search-container {
+    background-color: #2f2f43;
+    border-radius: 8px;
+    height: 48px;
+    width: 75vw;
+    outline: none;
+    border-width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  ::placeholder {
+    color: #94a3b8;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .search-element {
+    background-color: transparent;
+    outline: none;
+    border-width: 0px;
+    flex-grow: 1;
+    height: 48px;
+    border-radius: 8px;
+  }
+
+  .search-icon {
+    color: #94a3b8;
+    margin: 15px;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+}
+/* stats-css */
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 264px;
+  height: 232px;
+}
+.confirmed {
+  color: #ff073a;
+}
+
+.active {
+  color: #007bff;
+}
+.recovered {
+  color: #28a745;
+}
+
+.deceased {
+  color: #6c757d;
+}
+.population {
+  color: #94a3b8;
+}
+.state {
+  color: #f1f5f9;
+}
+
+.total-cases-container {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stat-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.stat-value {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.stat-images {
+  height: 38px;
+  width: 38px;
+}
+@media (max-width: 767px) {
+  .stat-images {
+    height: 24px;
+    width: 24px;
+  }
+  .stat-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .stat-value {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .total-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    margin: 0px;
+  }
+  .total-cases-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.sorting-button {
+  background-color: transparent;
+  border-width: 0px;
+  padding: 0px;
+}
+
+.sorting-icon {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.table-headings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #475569;
+  width: 1014px;
+}
+.table-rows-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  width: 1014px;
+}
+
+.table-row-element {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 90px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.table-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  width: 90px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.table-heading-state {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  width: 210px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.table-row-element-state {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 200px;
+  margin-bottom: 15px;
+  text-align: left;
+  color: #f1f5f9;
+}
+
+.table-container {
+  width: 90vw;
+  max-width: 1020px;
+  border: 1px solid #475569;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px;
+  overflow: auto;
+}
+
+.primedeals-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.filtered-container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0px;
+}
+.filtered-list-container {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.3px solid #64748b;
+  padding: 10px;
+}
+
+.inbox-row-container {
+  background-color: rgba(28, 212, 212, 0.16);
+  width: 76px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.filtered-state-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+}
+.filtered-state-code-name {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #facc15;
+}
+.right-square-icon {
+  width: 24x;
+  height: 24px;
+  color: #facc15;
+}
+@media (max-width: 767px) {
+  .filtered-list-container {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.3px solid #64748b;
+    padding: 10px;
+  }
+  .filtered-state-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #64748b;
+  }
+  .filtered-state-code-name {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #facc15;
+  }
+  .right-square-icon {
+    width: 13.33px;
+    height: 13.33px;
+    color: #facc15;
+  }
+  .inbox-row-container {
+    background-color: rgba(28, 212, 212, 0.16);
+    width: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+  }
+}
+
+.filter-link-container {
+  text-decoration: none;
+}

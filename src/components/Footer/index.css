@@ -1,0 +1,79 @@
+.footer-container {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.footer-message {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+
+.footer-icons-instagram {
+  color: white;
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+}
+.footer-icons-github {
+  color: #cbd5e1;
+  font-weight: 300;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+}
+
+.footer-icons-twitter {
+  color: #cbd5e1;
+  font-weight: 300;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+  .footer-message {
+    color: #94a3b8;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .footer-icons-instagram {
+    color: white;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+  .footer-icons-github {
+    color: #cbd5e1;
+    font-weight: 300;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  .footer-icons-twitter {
+    color: #cbd5e1;
+    font-weight: 300;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+}
